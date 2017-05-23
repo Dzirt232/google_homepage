@@ -1,0 +1,101 @@
+body{
+	margin: 0px;
+	background: #fff;
+}
+body, a , p ,h1,h2,h3,h4,h5,h6, div{
+	font-family: arial,sans-serif;
+}
+#poisk {
+	margin: 0px;
+	position: absolute;
+	top: 275px;
+	left: 760px;
+}
+#poisk input {
+	width: 463px;
+	height: 34px;
+	margin-left: -80px;
+	font-size: 20px;
+}
+#poisk img {
+	width: 291px;
+	height:102px;
+}
+ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+li{
+	display: inline;
+}
+a {
+	text-decoration: none;
+	color: #666;
+	padding: 10px 10px;
+}
+a:hover{
+	text-decoration: underline;
+}
+#footer {
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	background-color: #f2f2f2; 
+	border-top: 1px solid #e4e4e4;
+	padding: 20px;
+}
+#left{
+	margin-left: 20px;
+	float: left;
+}
+#right{
+	float: right;
+	margin-right: 20px;
+}
+#navig_bar{
+	display: block;
+	position: absolute;
+	right: 30px;
+	top: 10px;
+	font-size: 14px;
+	padding: 15px;
+}
+#navig_bar a{
+	color: black;
+}
+#button_1{
+	border: 1px solid #4285f4;
+	background-color: #4285f4;
+	color: #fff;
+	display: inline;
+	padding: 8px;
+	font-weight: bold;
+}
+#cubes {
+	width: 22px;
+	height: 22px;
+	padding-right: 10px;
+	padding-top: 5px;
+}
+#buttons div{
+	display: inline;
+	font-size: 14px;
+	padding: 10px 15px;
+	color: #666;
+	font-weight: bold;
+	background-color: #f2f2f2;
+	border: 1px solid #e4e4e4;
+}
+#buttons div:hover{
+	color: black;
+	background-color: #f8f8f8;
+	border: 2px solid #e4e4e4;
+}
+#buttons {
+	position: absolute;
+	top:450px;
+	right: 815px;
+}
